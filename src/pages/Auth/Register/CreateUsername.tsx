@@ -135,7 +135,7 @@ export default function CreateUsername({}: Props) {
 
   return (
     <>
-      <div className="logo-app">Peopl.</div>
+      <div className="logo-app">GetHealth</div>
       <div className="auth-page">
         <div className="username-container">
           <div className="navigation">
