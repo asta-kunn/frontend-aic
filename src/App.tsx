@@ -5,6 +5,7 @@ import Register from './pages/Auth/Register/Register'
 import Home from './pages/Home/Home'
 import CreatePost from './pages/Create/CreatePost'
 import DetailPost from './pages/DetailPost/DetailPost'
+import CreateUsername from './pages/Auth/Register/CreateUsername'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Intro />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register/>} />
+        <Route path="/register/create" element={<CreateUsername/>} />
         <Route path="/home" element={<Home/>} />
         <Route path='/create' element={<CreatePost/>} />
         <Route path='post/:id' element={<DetailPost/>} />
