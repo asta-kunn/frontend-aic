@@ -354,16 +354,16 @@ const NavigationBar = () => {
 			</div>
 			<div className="navbar-features">
 				<a href="https://huggingface.co/spaces/iqbalpa/diabetes-detection" target="_blank">
-					<div className="text-lg feature-item">Diabetes</div>
+					<div className="feature-item">Diabetes</div>
 				</a>
 				<a href="https://huggingface.co/spaces/iqbalpa/chest-symptom-classification" target="_blank">
-					<div className="text-lg feature-item">Chest X-ray</div>
+					<div className="feature-item">Chest X-ray</div>
 				</a>
 				<a href="https://huggingface.co/spaces/ikhlasulakmalh/SelfDiagnose" target="_blank">
-					<div className="text-lg feature-item">Self Diagnose</div>
+					<div className="feature-item">Self Diagnose</div>
 				</a>
 				<a href="https://huggingface.co/spaces/ikhlasulakmalh/StrokeDetection" target="_blank">
-					<div className="text-lg feature-item hover:text-red-500">Stroke</div>
+					<div className="feature-item hover:text-red-500">Stroke</div>
 				</a>
 			</div>
 		</div>

@@ -28,7 +28,7 @@
     gap: 8px;
   }
   .text-orange {
-    color: var(--orange-normal, #fc7201) !important;
+    color: var(--blue-normal, #3529dc) !important;
   }
   
   .text-area-style {

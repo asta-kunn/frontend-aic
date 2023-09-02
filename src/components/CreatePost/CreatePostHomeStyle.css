@@ -19,7 +19,7 @@
   }
   
   .create-post-home-profile-button .text {
-    color: var(--orange-normal, #fc7201);
+    color: var(--blue-normal, #3529dc);
     font-feature-settings: "clig" off, "liga" off;
     font-family: "Inter", sans-serif;
     font-size: 20px;
@@ -63,7 +63,7 @@
     bottom: 32px;
   
     border-radius: 100px;
-    background: var(--orange-normal, #fc7201);
+    background: var(--blue-normal, #3529dc);
   }
   
   @media (max-width: 560px) {

@@ -41,7 +41,7 @@
     padding: 2.432px;
     align-items: flex-start;
     border-radius: 6081.081px;
-    background: var(--orange-normal, #fc7201);
+    background: var(--blue-normal, #3529dc);
   }
   
   .post-card-footer {
@@ -60,7 +60,7 @@
     align-items: center;
     gap: 16px;
   
-    color: var(--orange-normal, #fc7201);
+    color: var(--blue-normal, #3529dc);
     font-feature-settings: "clig" off, "liga" off;
     font-family: Inter, sans-serif;
     font-size: 20px;

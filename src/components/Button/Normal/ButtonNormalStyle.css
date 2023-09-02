@@ -9,7 +9,7 @@
     
     .button-normal-style {
       border-radius: 6px;
-      background: var(--orange-normal, #fc7201);
+      background: var(--blue-normal, #3529dc);
       color: var(--neutral-0, #fff);
       font-family: "Inter", sans-serif;
       font-size: 20px;
@@ -21,14 +21,14 @@
     
     .button-normal-style:hover {
       border-radius: 6px;
-      background: var(--orange-dark, #bd5601);
+      background: var(--blue-dark, #1101bd);
     }
     
     .button-normal-secondary-style {
       align-items: center;
       border-radius: 6px;
-      border: 1.2px solid var(--orange-normal, #fc7201);
-      color: var(--orange-normal, #fc7201);
+      border: 1.2px solid var(--blue-normal, #3529dc);
+      color: var(--blue-normal, #3529dc);
       font-family: "Inter", sans-serif;
       font-size: 20px;
       font-style: normal;
@@ -39,7 +39,7 @@
     
     .button-normal-secondary-style:hover {
       border-radius: 6px;
-      background: var(--orange-dark, #bd5601);
+      background: var(--blue-dark, #1d01bd);
     }
     
     .button-normal-ghost {
@@ -48,7 +48,7 @@
     
     .button-normal-ghost-style {
       align-items: center;
-      color: var(--orange-normal, #fc7201);
+      color: var(--blue-normal, #3529dc);
       font-family: "Inter", sans-serif;
       font-size: 20px;
       font-style: normal;
@@ -58,6 +58,6 @@
     }
     
     .button-normal-ghost-style:hover {
-      color: var(--orange-dark, #bd5601);
+      color: var(--blue-dark, #3901bd);
     }
     

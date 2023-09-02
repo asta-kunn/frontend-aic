@@ -1,4 +1,3 @@
-import ButtonAuthGoogle from "../../../components/Button/Auth/AuthGoogle";
 import ButtonAuth from "../../../components/Button/Auth/AuthNormal";
 import "./WelcomeScreen.css";
 import { useNavigate } from "react-router-dom";
@@ -16,16 +15,11 @@ export default function Intro({}: Props) {
           <div className="intro-header">
             <h1>Welcome to GetHealth</h1>
             <div className="body-p5 text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Solusi Cerdas Untuk Kesehatan Anda
             </div>
           </div>
           <div className="intro-option">
             <h3>Register</h3>
-            <ButtonAuthGoogle
-              onClick={() => {
-                navigate("/xxxx");
-              }}
-            />
             <ButtonAuth
               onClick={() => {
                 navigate("/register");

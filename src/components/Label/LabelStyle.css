@@ -31,7 +31,7 @@
   }
   
   .text-orange-primary {
-    color: var(--orange-normal, #fc7201);
+    color: var(--blue-normal, #3529dc);
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-style: normal;

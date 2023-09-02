@@ -25,13 +25,33 @@
 
 .feature-item {
 	margin: 8px;
-	color: var(--orange-normal, #1d242d);
+	color: var(--blue-normal, #3529dc);
+	transition: transform 0.3s ease, color 0.3s ease; /* Added transition */
+	position: relative; /* Added position for pseudo-element */
+	overflow: hidden; /* Hide overflowing pseudo-element content */
+}
+
+.feature-item::before {
+	content: ''; /* Pseudo-element for the hover effect */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 85, 255, 0.1); /* Semi-transparent orange background */
+	transform: scaleX(0); /* Initially hidden */
+	transform-origin: left center;
+	transition: transform 0.3s ease;
+	z-index: -1; /* Place the pseudo-element behind the text */
 }
 
 .feature-item:hover {
 	color: rgba(0, 0, 0, 0.5);
 	transform: scale(1.05);
-	transition: transform 100ms ease-in-out;
+}
+
+.feature-item:hover::before {
+	transform: scaleX(1);
 }
 
 .nav-item {
@@ -69,7 +89,7 @@
 }
 
 .icon:hover {
-	stroke: var(--orange-normal);
+	stroke: var(--blue-normal);
 }
 
 .nav-item:hover {
@@ -95,7 +115,7 @@
 }
 
 .profile-name {
-	color: var(--orange-normal, #1d242d);
+	color: var(--blue-normal, #3529dc);
 
 	/* Body/P6 */
 	font-family: "Inter", sans-serif;
@@ -183,7 +203,7 @@
 }
 
 .profile-modal-content-item-text {
-	color: var(--orange-normal, #9caaba);
+	color: var(--blue-normal, #3529dc);
 	text-align: start;
 
 	/* Body/P9 */
@@ -224,7 +244,7 @@
 }
 
 .dropdown-profile:hover {
-	background-color: var(--orange-light-hover);
+	background-color: var(--blue-light-hover);
 	border-radius: 6px;
 }
 

@@ -2,7 +2,7 @@
     cursor: pointer;
     background-color: var(--neutral-0);
     border-radius: 8px;
-    border: 1px solid var(--neutral-402, #9caaba);
+    border: 1px solid var(--neutral-402, #5e8ec6);
     display: flex;
     padding: 16px;
     justify-content: center;

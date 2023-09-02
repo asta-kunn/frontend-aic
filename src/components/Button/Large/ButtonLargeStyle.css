@@ -11,7 +11,7 @@
     .button-large-style {
       align-items: center;
       border-radius: 6px;
-      background: var(--orange-normal, #fc7201);
+      background: var(--blue-normal, #3529dc);
       color: var(--neutral-0, #fff);
       font-family: "Inter", sans-serif;
       font-size: 20px;
@@ -23,7 +23,7 @@
     
     .button-large-style:hover {
       border-radius: 6px;
-      background: var(--orange-dark, #bd5601);
+      background: var(--blue-dark, #0000d6);
     }
     
     .button-large-secondary-style {
